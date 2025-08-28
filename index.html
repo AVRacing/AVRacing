@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aero Velocity - The Southport School</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background: #1e3a8a;
+      color: white;
+      font-size: 1.1em;
+    }
+    tr:hover {
+      background: #f3f4f6;
+      transition: background 0.3s ease;
+    }
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="images/aero_velocity_logo.png" alt="Aero Velocity Logo" style="height:100px; display:block; margin: 0 auto;" class="fade-in">
+    <h1 class="fade-in">Aero Velocity</h1>
+    <p class="fade-in" style="animation-delay:0.5s;">The Southport School STEM Racing Team</p>
+    <nav class="fade-in" style="animation-delay:1s">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2 data-aos="fade-up">Welcome to Aero Velocity</h2>
+    <p data-aos="fade-up" data-aos-delay="200">We are a high-performance STEM Racing team, combining engineering, aerodynamics, and innovation to build record-breaking racing cars.</p>
+    <p data-aos="fade-up" data-aos-delay="400"><strong>Our Mission:</strong> Build the perfect car</p>
+  </section>
+
+  <section id="team">
+    <h2 data-aos="fade-up">Meet the Team</h2>
+    <div class="team-container">
+      <div class="team-member" data-aos="zoom-in">
+        <h3>Louis Schneider</h3>
+        <p>Operations & Marketing</p>
+      </div>
+      <div class="team-member" data-aos="zoom-in" data-aos-delay="200">
+        <h3>Cooper Boswerger</h3>
+        <p>Design & Fabrication</p>
+      </div>
+      <div class="team-member" data-aos="zoom-in" data-aos-delay="400">
+        <h3>Aidan Heschl</h3>
+        <p>Team Leader & Spokesperson</p>
+      </div>
+      <div class="team-member" data-aos="zoom-in" data-aos-delay="600">
+        <h3>Leon Noble</h3>
+        <p>Design & Documentation</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sponsors">
+    <h2 data-aos="fade-up">Sponsorship Packages</h2>
+    <table data-aos="fade-up" data-aos-delay="200">
+      <thead>
+        <tr>
+          <th>Package</th>
+          <th>Shirt Logo</th>
+          <th>Car Logo</th>
+          <th>Social Media</th>
+          <th>Website</th>
+          <th>Dedicated Banner</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bronze $500</td>
+          <td>One Small (Arm)</td>
+          <td>No</td>
+          <td>1 Post</td>
+          <td>Yes</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Silver $1000</td>
+          <td>One Small (Arm)</td>
+          <td>Small X2 Side</td>
+          <td>2 Posts</td>
+          <td>Yes</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Gold $2500</td>
+          <td>Two Medium & Small (Small Right Chest, Medium Back Side)</td>
+          <td>Medium Cone X1</td>
+          <td>3 Posts</td>
+          <td>Yes</td>
+          <td>Small</td>
+        </tr>
+        <tr>
+          <td>Platinum $5000</td>
+          <td>Two Large (Back Top Centre, Left Chest)</td>
+          <td>Medium X2 Side or Large X1 Nose Small Cone X1</td>
+          <td>2 Posts Every Event</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="contact">
+    <h2 data-aos="fade-up">Contact Us</h2>
+    <p>Email: <a href="mailto:team.aerovelocity@gmail.com">team.aerovelocity@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Aero Velocity - The Southport School</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1200 });
+  </script>
+</body>
+</html>
